@@ -19,38 +19,93 @@ knitr::opts_chunk$set(
 [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FCopf/geoprocessamentor/master?urlpath=rstudio)
 <!-- badges: end -->
 
-The goal of geoprocessamentor is to ...
+Aqui você irá encontrar o material de apoio para o curso de Geoprocessamento para o $2^o$ semestre de 2023 oferecido ao Bacharelado Interdisciplinar em Ciência e Tecnologia do Mar (BICT Mar) que pode ser acessado diretamente do [GitHub](https://github.com/FCopf/geoprocessamentor).
 
-## Installation
+Para rodar uma nova seção do <a href="https://www.rstudio.com/tags/rstudio-ide/m" target="_blank">RStudio</a> clique no símbolo ![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg) acima.
 
-You can install the development version of geoprocessamentor from [GitHub](https://github.com/) with:
+## Cronograma
 
-``` r
-# install.packages("devtools")
-devtools::install_github("FCopf/geoprocessamentor")
+| Data     | Aula      | Conteúdo                                          |
+|-------------|-----------|---------------------------------------------------|
+| **Agosto**  |           |                                                   |
+| 16/08/23    | 1ª Aula   | Introdução e cronograma do curso.                 |
+| 23/08/23    | 2ª Aula   | Manipulação de tabelas de atributos não espaciais |
+| 30/08/23    | 3ª Aula   | Manipulação de tabelas de atributos espaciais     |
+| **Setembro**|           |                                                   |
+| 06/09/23    | 4ª Aula   | Tipos de dados vetoriais. *Envio do tema do trabalho* |
+| 13/09/23    | 5ª Aula   | Manipulações e transformações em dados vetoriais  |
+| 20/09/23    | 6ª Aula   | Projeções                                         |
+| 27/09/23    | 7ª Aula   | Dados matriciais tipo raster                      |
+| **Outubro** |           |                                                   |
+| 04/10/23    | 8ª Aula   | Operações e manipulações de dados raster          |
+| 11/10/23    | 9ª Aula   | Envio da proposta de trabalho *Envio da 1ª proposta trabalho* |
+| 18/10/23    | 10ª Aula  | Discussão das propostas                           |
+| 25/10/23    | 11ª Aula  | Discussão das propostas                           |
+| **Novembro**|           |                                                   |
+| 01/11/23    | 12ª Aula  | Interações entre dados vetoriais e dados raster. *Disponibilização das bases de dados que serão utilizadas no trabalho*   |
+| 08/11/23    | 13ª Aula  | Interações entre dados vetoriais e dados raster   |
+| 15/11/23    | Feriado   | **NÃO HAVERÁ AULA**                               |
+| 22/11/23    | 14ª Aula  | Confecção de mapas                                |
+| 29/11/23    | 15ª Aula  | *Envio do trabalho*                               |
+| **Dezembro**|           |                                                   |
+| 06/12/23    | 16ª Aula  | *Correções, ajustes finais e entrega dos trabalhos* |
+| 13/12/23    | 17ª Aula  | *Correções, ajustes finais e entrega dos trabalhos* |
+| 20/12/23    | Exame     | **PROVA EM SALA DE AULA**                         |
+
+## Instruções
+
+- **Envio do tema do trabalho**: Envio via Moodle de um documento contendo os integrantes do grupo (**RA, Nome completo**) e um parágrafo descrevendo os objetivos do trabalho. O trabalho final será um ou mais **mapa(s) temático(s)** propostos para responder uma ou mais perguntas objetivas. Descreva: o título do trabalho, qual(is) pergunta(s) pretendem responder e quais tipos de informações (espaciais e não espaciais) julgam ser necessárias para cumprir os objetivos. 
+
+- **Envio da 1ª proposta de trabalho**: Neste momento, o grupo deverá descrever todas as bases de dados, onde pretendem encontrá-las e qual será a metodologia de trabalho para a geração do mapa temático, isto é, qual serão as operações necessárias para processar as bases de dados a fim de gerar o(s) mapa(s) temático(s).
+
+- **Disponibilização das bases de dados que serão utilizadas no trabalho**: Cada grupo deverá disponibilizar as bases de dados em uma pasta compartilhada.
+
+- **Envio do trabalho**: Os grupos deverão enviar via **Moodle** os scripts utilizados para gerar os mapas temáticos, contendo a descrição de cada etapa do script.
+
+- **Correções, ajustes finais e entrega dos trabalhos**: Esses dias serão utilizados para correções finais antes da entrega do trabalho via Moodle. O trabalho será composto de uma texto apresentando o título, nome dos integrates, objetivos do trabalho e detalhamento do processo de gração do(s) mapa(s) por meio de scripts comentados (vide documento: **Exemplo_trabalho_final.pdf**).
+
+## Estrutura das pastas
+
+- Na pastas **aulas_Rmd** e **aulas_R** você encontrará as aulas nos formatos `.Rmd` e `.R` respectivamente contendo os tutoriais e exercícios de cada aula. Você pode escolher qualquer uma dos formatos para rodar ou para exportar para seu computador.
+
+- Na pasta **scripts** estão funções úteis que serão utilizadas durante o curso.
+
+- Na pasta **dados** estão as bases de dados (`.csv`, `.shp`, `.gif`, etc...) utilizadas no curso.
+
+- Uma vez no ambiente ![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg) do <a href="https://www.rstudio.com/tags/rstudio-ide/m" target="_blank">RStudio</a>, qualquer arquivo pode ser exportado a partir da aba **Files** --> **More** ![More](imagens/gear-fill.svg)
+
+
+## Exemplo
+
+```{r example, message=FALSE}
+library(sf)
+library(spData)
+library(tidyverse)
 ```
 
-## Example
+Carregando os dados `world`.
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-# library(geoprocessamentor)
-## basic example code
+```{r world-data}
+data(world)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+Verificando a tabela de atributos das 10 primeiras linhas.
 
-```{r cars}
-summary(cars)
+```{r}
+world |>
+  head()
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+Plotando o mapa de continentes.
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r world-continent-map}
+ggplot(world) +
+  geom_sf(aes(fill = continent))
 ```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+Plotando o mapa de tamanhos populacionais.
+
+```{r world-pop-map}
+ggplot(world) +
+  geom_sf(aes(fill = pop))
+```
