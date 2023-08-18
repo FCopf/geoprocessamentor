@@ -1,3 +1,4 @@
+# Rodar para atualizar ambiente Binder
 library(holepunch)
 write_compendium_description(package = "geoprocessamentor", 
                              description = "Curso de Geoprocessamento usando o R")

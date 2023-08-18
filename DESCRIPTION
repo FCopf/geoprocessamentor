@@ -8,10 +8,14 @@ Description: Curso de Geoprocessamento usando o R
 License: What license it uses
 Depends: 
     geoprocessamentor,
+    holepunch,
     knitr,
     rmarkdown,
+    scales,
     sf,
     spData,
     tidyverse
+Remotes: 
+    karthik/holepunch
 Encoding: UTF-8
 LazyData: true
