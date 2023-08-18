@@ -1,0 +1,17 @@
+Type: Compendium
+Package: geoprocessamentor
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: Curso de Geoprocessamento usando o R
+License: What license it uses
+Depends: 
+    geoprocessamentor,
+    knitr,
+    rmarkdown,
+    sf,
+    spData,
+    tidyverse
+Encoding: UTF-8
+LazyData: true
