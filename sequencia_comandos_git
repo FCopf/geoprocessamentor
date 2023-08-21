@@ -4,3 +4,5 @@ git add .   # adicionar arquivos
 git commit -m "descrição"    # commit
 
 git push -u origin master    # enviar para master
+
+git push -f # forçar push
