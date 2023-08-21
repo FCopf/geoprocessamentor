@@ -13,7 +13,19 @@ Integrantes:
 
 # Objetivos
 
-Neste trabalho é apresentado o discutido o padrão de distribuição dos tanhamos populacionais por continente.
+Neste trabalho é apresentado o discutido o padrão de distribuição dos tamanhos populacionais por continente.
+
+### Bases de dados utilizadas
+
+1.  Nome da base 1. Arquivo do tipo Poligonos. Disponível em: [www.base1.com.br](www.base1.com.br)
+
+2.  Nome da base 2. Arquivo do tipo raster. Disponível em: [www.base2.com.br](www.base1.com.br)
+
+3.  Nome da base 1. Arquivo do tipo pontos. Disponível em: [www.base1.com.br](www.base1.com.br)
+
+4.  
+
+5.  ...
 
 ### Pacotes utilizados
 
@@ -23,11 +35,18 @@ library(spData)
 library(tidyverse)
 ```
 
-### Carregando os dados `world`.
+### Importação das bases de dados.
 
 ```{r world-data}
 data(world)
 ```
+
+#### Descrição das bases de dados
+
+```{r}
+glimpse(world)
+```
+
 
 ### Plotando o mapa de continentes.
 

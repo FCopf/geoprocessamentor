@@ -19,63 +19,100 @@ knitr::opts_chunk$set(
 [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FCopf/geoprocessamentor/master?urlpath=rstudio)
 <!-- badges: end -->
 
-Aqui você irá encontrar o material de apoio para o curso de Geoprocessamento para o $2^o$ semestre de 2023 oferecido ao Bacharelado Interdisciplinar em Ciência e Tecnologia do Mar (BICT Mar) que pode ser acessado diretamente do [GitHub](https://github.com/FCopf/geoprocessamentor).
+Aqui você irá encontrar o material de apoio para o curso de UC de **Geoprocessamento** para o $2^o$ semestre de 2023, oferecido ao Bacharelado Interdisciplinar em Ciência e Tecnologia do Mar (BICT Mar), IMar, Unifesp, Campus Baixada Santista.
 
-Para rodar uma nova seção do <a href="https://www.rstudio.com/tags/rstudio-ide/m" target="_blank">RStudio</a> clique no símbolo ![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg) acima.
+Abra a seção virtual do <a href="https://www.rstudio.com/tags/rstudio-ide/" target="_blank">RStudio</a> através do link ![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg) para rodar os arquivos `.R`, `.Rmd` deste repositório.
 
 ## Cronograma
 
-| Data     | Aula      | Conteúdo                                          |
-|-------------|-----------|---------------------------------------------------|
-| **Agosto**  |           |                                                   |
-| 16/08/23    | 1ª Aula   | Introdução e cronograma do curso.                 |
-| 23/08/23    | 2ª Aula   | Manipulação de tabelas de atributos não espaciais |
-| 30/08/23    | 3ª Aula   | Manipulação de tabelas de atributos espaciais     |
-| **Setembro**|           |                                                   |
-| 06/09/23    | 4ª Aula   | Tipos de dados vetoriais. *Envio do tema do trabalho* |
-| 13/09/23    | 5ª Aula   | Manipulações e transformações em dados vetoriais  |
-| 20/09/23    | 6ª Aula   | Projeções                                         |
-| 27/09/23    | 7ª Aula   | Dados matriciais tipo raster                      |
-| **Outubro** |           |                                                   |
-| 04/10/23    | 8ª Aula   | Operações e manipulações de dados raster          |
-| 11/10/23    | 9ª Aula   | Envio da proposta de trabalho *Envio da 1ª proposta trabalho* |
-| 18/10/23    | 10ª Aula  | Discussão das propostas                           |
-| 25/10/23    | 11ª Aula  | Discussão das propostas                           |
-| **Novembro**|           |                                                   |
-| 01/11/23    | 12ª Aula  | Interações entre dados vetoriais e dados raster. *Disponibilização das bases de dados que serão utilizadas no trabalho*   |
-| 08/11/23    | 13ª Aula  | Interações entre dados vetoriais e dados raster   |
-| 15/11/23    | Feriado   | **NÃO HAVERÁ AULA**                               |
-| 22/11/23    | 14ª Aula  | Confecção de mapas                                |
-| 29/11/23    | 15ª Aula  | *Envio do trabalho*                               |
-| **Dezembro**|           |                                                   |
-| 06/12/23    | 16ª Aula  | *Correções, ajustes finais e entrega dos trabalhos* |
-| 13/12/23    | 17ª Aula  | *Correções, ajustes finais e entrega dos trabalhos* |
-| 20/12/23    | Exame     | **PROVA EM SALA DE AULA**                         |
+| Data        | Aula      | Conteúdo                                          |Entregas e atividades|
+|-------------|-----------|---------------------------------------------------|-------|
+| **Agosto**  |           |                                                   |       |
+| 16/08/23    | 1ª Aula   | Introdução e cronograma do curso                  |       |
+| 23/08/23    | 2ª Aula   | Manipulação de atributos não espaciais em tabelas |*Aula_02_exercicios*|
+| 30/08/23    | 3ª Aula   | Manipulação de atributos espaciais em tabelas     |*Aula_03_exercicios*|
+| **Setembro**|           |                                                   |       |
+| 06/09/23    | 4ª Aula   | Dados vetoriais, manipulações e transformações    |*Aula_04_exercicios*|
+| 13/09/23    | 5ª Aula   | Dados matriciais do tipo raster                   |*Aula_05_exercicios*; *Envio do tema do trabalho*|
+| 20/09/23    | 6ª Aula   | Operações e manipulações de dados raster          |*Aula_06_exercicios*|
+| 27/09/23    | 7ª Aula   | Projeções                                         |*Aula_07_exercicios*|
+| **Outubro** |           |                                                   |       |
+| 04/10/23    | 8ª Aula   | Bases de dados                                    |*Aula_08_exercicios*|
+| 11/10/23    | 9ª Aula   | Atividade prática: busca de bases de dados do trabalho        |*Envio da proposta trabalho* |
+| 18/10/23    | 10ª Aula  | Atividade prática: processamento de dados do trabalho |       |
+| 25/10/23    | 11ª Aula  | Atividade prática: processamento de dados do trabalho |       |
+| **Novembro**|           |                                                   |       |
+| 01/11/23    | 12ª Aula  | Interações entre dados vetoriais e raster         |*Aula_12_exercicios*; *Envio das bases de dados que serão utilizadas no trabalho*   |
+| 08/11/23    | 13ª Aula  | Interações entre dados vetoriais e raster         |*Aula_13_exercicios*|
+| 15/11/23    | Feriado   | **NÃO HAVERÁ AULA**                               |       |
+| 22/11/23    | 14ª Aula  | Confecção de mapas                                |*Aula_14_exercicios*|
+| 29/11/23    | 15ª Aula  | Confecção de mapas                                |*Aula_15_exercicios*; *Envio da 1ª versão do trabalho*|
+| **Dezembro**|           |                                                   |       |
+| 06/12/23    | 16ª Aula  | Atividade prática: correções, ajustes finais |*Entrega do trabalho* |
+| 13/12/23    | 17ª Aula  | Atividade prática: correções, ajustes finais |*Entrega do trabalho* |
+| 20/12/23    | Exame     | **PROVA EM SALA DE AULA**                         |       |
 
 ## Instruções
 
-- **Envio do tema do trabalho**: Envio via Moodle de um documento contendo os integrantes do grupo (**RA, Nome completo**) e um parágrafo descrevendo os objetivos do trabalho. O trabalho final será um ou mais **mapa(s) temático(s)** propostos para responder uma ou mais perguntas objetivas. Descreva: o título do trabalho, qual(is) pergunta(s) pretendem responder e quais tipos de informações (espaciais e não espaciais) julgam ser necessárias para cumprir os objetivos. 
+- **Envio do tema do trabalho** ($5\%$ da nota final): Envio via **Moodle** de um documento contendo os integrantes do grupo (**RA, Nome completo**) e um parágrafo descrevendo os objetivos do trabalho. O trabalho final será um ou mais **mapa(s) temático(s)** propostos para responder uma ou mais perguntas objetivas. Descreva: o título do trabalho, qual(is) pergunta(s) pretendem responder e quais tipos de informações (espaciais e não espaciais) julgam ser necessárias para cumprir os objetivos. 
 
-- **Envio da 1ª proposta de trabalho**: Neste momento, o grupo deverá descrever todas as bases de dados, onde pretendem encontrá-las e qual será a metodologia de trabalho para a geração do mapa temático, isto é, qual serão as operações necessárias para processar as bases de dados a fim de gerar o(s) mapa(s) temático(s).
+- **Envio da proposta de trabalho** ($10\%$ da nota final): O grupo deverá descrever todas as bases de dados, onde pretendem encontrá-las e qual será a metodologia de trabalho para a geração do mapa temático, isto é, qual serão as operações necessárias para processar as bases de dados a fim de gerar o(s) mapa(s) temático(s).
 
-- **Disponibilização das bases de dados que serão utilizadas no trabalho**: Cada grupo deverá disponibilizar as bases de dados em uma pasta compartilhada.
+- **Envio das bases de dados que serão utilizadas no trabalho** ($10\%$ da nota final): Cada grupo deverá disponibilizar as bases de dados em uma pasta compartilhada.
 
-- **Envio do trabalho**: Os grupos deverão enviar via **Moodle** os scripts utilizados para gerar os mapas temáticos, contendo a descrição de cada etapa do script.
+- **Envio da 1ª versão do trabalho** ($20\%$ da nota final): Os grupos deverão enviar via **Moodle** os scripts utilizados para gerar os mapas temáticos, contendo a descrição de cada etapa do script.
 
-- **Correções, ajustes finais e entrega dos trabalhos**: Esses dias serão utilizados para correções finais antes da entrega do trabalho via Moodle. O trabalho será composto de uma texto apresentando o título, nome dos integrates, objetivos do trabalho e detalhamento do processo de gração do(s) mapa(s) por meio de scripts comentados (vide documento: **Exemplo_trabalho_final.pdf**).
+- **Entrega dos trabalhos** ($25\%$ da nota final): Dias utilizados para correções finais antes da entrega do trabalho via Moodle. O trabalho será composto de uma texto apresentando o título, nome dos integrates, objetivos do trabalho e detalhamento do processo de gração do(s) mapa(s) por meio de scripts comentados. Imagens e tabelas temáticas finais deverão estar em documentos a parte nos formatos `.png` (imagens) e `.pdf` (tabelas) (vide documento: <a href="https://github.com/FCopf/geoprocessamentor/blob/master/Exemplo_trabalho_final.pdf" target="_blank">Exemplo_trabalho_final.pdf</a>).
+
+- **Aula_XX_exercicios** ($30\%$ da nota final). As listas de exercícios deverão ser enviada via Moodle ao final de cada aula.
+
+
 
 ## Estrutura das pastas
 
-- Na pastas **aulas_Rmd** e **aulas_R** você encontrará as aulas nos formatos `.Rmd` e `.R` respectivamente contendo os tutoriais e exercícios de cada aula. Você pode escolher qualquer uma dos formatos para rodar ou para exportar para seu computador.
+- Na pastas **aulas_r** e **aulas_rmd** você encontrará as aulas nos formatos `.R` e `.Rmd` respectivamente contendo os tópicos e exercícios de cada aula. Você pode escolher seguir qualquer um dos formatos acompanhar as atividades.
 
 - Na pasta **scripts** estão funções úteis que serão utilizadas durante o curso.
 
 - Na pasta **dados** estão as bases de dados (`.csv`, `.shp`, `.gif`, etc...) utilizadas no curso.
 
-- Uma vez no ambiente ![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg) do <a href="https://www.rstudio.com/tags/rstudio-ide/m" target="_blank">RStudio</a>, qualquer arquivo pode ser exportado a partir da aba **Files** --> **More** ![More](imagens/gear-fill.svg)
+- Na pasta **exercicios** estão as listas de execícios a serem entregues ao final de cada aula.
 
+- Uma vez no ambiente ![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg) do <a href="https://www.rstudio.com/tags/rstudio-ide/" target="_blank">RStudio</a>, qualquer arquivo pode ser exportado a partir da aba **Files** --> **More** ![More](imagens/gear-fill.svg)
+
+## E-books e tutorais
+
+* Programação em R
+
+  1. <a href="https://fcopf.github.io/probest-introR/" target="_blank">Introdução ao Ambiente R de Programação</a>
+  
+  2. <a href="https://fcopf.github.io/visualizacao-de-dados/" target="_blank">Descrição e Visualização de Dados</a>
+  
+  3. <a href="https://www.tidyverse.org/" target="_blank">Tidyverse</a>
+
+* Geoprocessamento em R
+
+  1. <a href="https://r.geocompx.org/" target="_blank">Geocomputation with R</a>
+  
+  2. <a href="https://geobgu.xyz/r/index.html" target="_blank">Introduction to Spatial Data Programming with R</a>
+  
+  3. <a href="https://r-spatial.org/book/" target="_blank">Spatial Data Science: With Applications in R</a>
+
+* Pacotes úteis em geoprocessamento
+
+  
+  1. <a href="https://r-spatial.github.io/sf/" target="_blank">Simple Features for R</a>
+  
+  2. <a href="https://rspatial.org/index.html" target="_blank">Spatial Data Science with R and “terra”</a>
+  
+  3. <a href="https://r-spatial.github.io/stars/index.html" target="_blank">Spatiotemporal Arrays: Raster and Vector Datacubes</a>
 
 ## Exemplo
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE,
+                      fig.align = 'center', fig.width = 10, fig.height = 5)
+```
 
 ```{r example, message=FALSE}
 library(sf)
@@ -92,8 +129,8 @@ data(world)
 Verificando a tabela de atributos das 10 primeiras linhas.
 
 ```{r}
-world |>
-  head()
+world %>%
+  head(n = 10)
 ```
 
 Plotando o mapa de continentes.
@@ -108,4 +145,20 @@ Plotando o mapa de tamanhos populacionais.
 ```{r world-pop-map}
 ggplot(world) +
   geom_sf(aes(fill = pop))
+```
+
+Plotando o mapa da América do Sul.
+
+```{r america-sul-tab}
+asul <- world %>% 
+  filter(continent == 'South America')
+
+asul
+```
+
+```{r america-sul-map}
+ggplot(asul) +
+  geom_sf(aes(fill = name_long)) +
+  labs(fill = 'País') +
+  theme_void()
 ```

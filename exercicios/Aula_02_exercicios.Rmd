@@ -1,0 +1,70 @@
+---
+title: "GEOPROCESSAMENTO - BICT Mar - EXERCÍCIOS"
+author: "Seu-nome-RA-Turno"
+date: "23-08-2023"
+output: pdf_document
+---
+# Rode esta linha ANTES de iniciar o exercício.
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
+
+## Aula 2: Manipulação de atributos não espaciais em tabelas
+
+### 1. Carrege o pacote `tidyverse`
+
+```{r}
+
+```
+
+
+### 2. Importe o arquivo `municipios_ibge2022.csv`
+
+```{r}
+
+```
+
+### 3. Crie duas novas colunas com o número de moradores por domicílio em 2022 e com a densidade populacional em 2022 (habitantes/km2).
+
+```{r}
+
+```
+
+
+### 4. Agrupe a tabela resultante por estado e obtenha as seguintes variáveis (sumarisadas por estado):
+
+* Área total.
+* Número total de municípios.
+* População total em 2022.
+* População média por município.
+* Desvio padrão da população por município.
+* Coeficiente de variação da população por município.
+* Número de moradores médio por município.
+* Desvio padrão do número de moradores por município.
+* Coeficiente de variação do número de moradores por município.
+
+```{r}
+
+```
+
+
+### 5. Liste os 3 estados com maiores populações.
+
+```{r}
+
+```
+
+
+### 6. Liste os 5 estados com maiores números médios de moradores por domicílio.
+
+```{r}
+
+```
+
+### 7. Liste os 5 estados com menores números médios de moradores por domicílio.
+
+```{r}
+
+```
+

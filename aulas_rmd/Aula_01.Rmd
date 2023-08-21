@@ -1,0 +1,58 @@
+---
+title: "GEOPROCESSAMENTO - BICT Mar"
+subtitle: "Aula 1: Introdução e cronograma do curso"
+author: "Fabio Cop"
+date: "16-08-2023"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE,
+                      fig.align = 'center', fig.width = 10, fig.height = 5)
+```
+
+### Pacotes utilizados
+```{r}
+library(sf)
+library(spData)
+library(tidyverse)
+```
+
+### Carregando os dados `world`.
+```{r}
+data(world)
+```
+
+### Verificando a tabela de atributos das 10 primeiras linhas.
+```{r}
+world %>% 
+  head(n = 10)
+```
+
+### Plotando o mapa de continentes.
+```{r}
+ggplot(world) +
+  geom_sf(aes(fill = continent))
+```
+
+### Plotando o mapa de tamanhos populacionais.
+```{r}
+ggplot(world) +
+  geom_sf(aes(fill = pop))
+```
+
+### Plotando o mapa da América do Sul.
+```{r}
+asul <- world %>%  
+  filter(continent == 'South America')
+
+asul
+```
+
+
+```{r}
+ggplot(asul) +
+  geom_sf(aes(fill = name_long)) +
+  labs(fill = 'País') +
+  theme_void()
+```
