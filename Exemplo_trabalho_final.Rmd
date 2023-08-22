@@ -1,0 +1,69 @@
+---
+title: "Título do trabalho"
+subtitle: UC Geoprocessamento, BICT Mar e Engenharias, Imar, Unifesp
+date: "Data: `r format(Sys.Date(), '%d-%m-%Y')`"
+output: 
+  pdf_document:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## Integrantes:
+
+| RA   | Nome completo | Curso   | Turno    |
+|------|---------------|---------|----------|
+| RA 1 | Nome 1        | Curso 1 |  Turno 1 |
+| RA 1 | Nome 1        | Curso 1 |  Turno 1 |
+
+
+
+## Objetivos
+
+Descreva os objetivos do trabalho e o que será apresentado como resultado final
+
+## Bases de dados utilizadas
+
+| Nome da base de dados   | Formato   | Origem  | Descrição   |
+|-------------------------|-----------|---------|-------------|
+| Nome da base de dados 1 | Formato 1 | Origem 1| Descrição 1 |
+| Nome da base de dados 2 | Formato 2 | Origem 2| Descrição 2 |
+|  ...                    |  ...      | ...     | ...         |
+| Nome da base de dados n | Formato n | Origem n| Descrição n |
+
+
++ Nome da base de dados: nome_do_arquivo.extensão
+
++ Formato: tipo de arquivo. Raster ou Shape file 
+
++ Origem: link da web, pacote R, etc.
+
++ Descrição: se for raster, descreva a dimensão e extensão. Se shape file, descreva as dimensões (número de linhas e colunas).
+
+
+## Pacotes utilizados
+
+```{r example, message=FALSE}
+library(sf)
+library(spData)
+library(tidyverse)
+```
+
+## Importação das bases de dados.
+
+```{r world-data}
+data(world)
+```
+
+## Descrição das bases de dados
+
+```{r}
+glimpse(world)
+```
+
+## Script para processar as bases de dados, gerar o mapa final e salvar o mapa final.
