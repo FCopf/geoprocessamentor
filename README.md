@@ -51,7 +51,7 @@ Binder](http://mybinder.org/badge_logo.svg) para rodar os arquivos `.R`,
 
 ## Instruções
 
-- **Envio do tema do trabalho** (5% da nota final): Enviado via
+- **Envio do tema do trabalho** (10% da nota final): Enviado via
   **Moodle**, um documento contendo os integrantes do grupo (**RA, Nome
   completo**) e um parágrafo descrevendo os objetivos do trabalho. O
   trabalho final será composto por um ou mais **mapa(s) temático(s)**
@@ -75,7 +75,7 @@ Binder](http://mybinder.org/badge_logo.svg) para rodar os arquivos `.R`,
   devem enviar via **Moodle** os scripts utilizados para gerar os mapas
   temáticos, contendo a descrição de cada etapa do script.
 
-- **Entrega dos trabalhos** (25% da nota final): Dias utilizados para
+- **Entrega dos trabalhos** (30% da nota final): Dias utilizados para
   correções finais antes da entrega do trabalho via Moodle. O trabalho
   será composto por um texto apresentando o título, nomes dos
   integrantes, objetivos do trabalho e detalhamento do processo de
@@ -84,12 +84,15 @@ Binder](http://mybinder.org/badge_logo.svg) para rodar os arquivos `.R`,
   formatos `.png` (imagens) e `.pdf` (tabelas) (ver documento:
   <a href="https://github.com/FCopf/geoprocessamentor/blob/master/Exemplo_trabalho_final.pdf" target="_blank">Exemplo_trabalho_final.pdf</a>).
 
-- **Entrega da lista Aula_XX_exercicios** (30% da nota final): As listas
-  de exercícios devem ser enviadas via **Moodle** sempre *ao final de
-  cada aula*.
+- **Entrega da lista Aula_XX_exercicios** (20% da nota final): As listas
+  de exercícios devem ser enviadas em formado `PDF` via **Moodle**
+  sempre *ao final de cada aula*.
 
 - **Observação**: A entrega das etapas do trabalho após as datas
-  previstas contabilizará no **máximo 2/3 da nota para a etapa**.
+  previstas contabilizará no **máximo 2/3 da nota para a etapa**. As
+  listas de aula devem ser enviadas **exclusivamente** via Moodle, no
+  período em que estarão abertas. Não serão contabilizados envios feitos
+  por outro canal (Email, Whatsapp, etc.)
 
 ## Estrutura das pastas
 
