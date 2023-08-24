@@ -22,32 +22,32 @@ Binder](http://mybinder.org/badge_logo.svg) para rodar os arquivos `.R`,
 
 ## Cronograma
 
-| Data         | Aula     | Conteúdo                                               | Entregas e atividades                                                                                          |
-|--------------|----------|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **Agosto**   |          |                                                        |                                                                                                                |
-| 16/08/23     | 1ª Aula  | Introdução e cronograma do curso                       |                                                                                                                |
-| 23/08/23     | 2ª Aula  | Manipulação de atributos não espaciais em tabelas      | *Entrega da lista Aula_02_exercicios*                                                                          |
-| 30/08/23     | 3ª Aula  | Manipulação de atributos espaciais em tabelas          | *Entrega da lista Aula_03_exercicios*                                                                          |
-| **Setembro** |          |                                                        |                                                                                                                |
-| 06/09/23     | 4ª Aula  | Dados vetoriais, manipulações e transformações         | *Entrega da lista Aula_04_exercicios*                                                                          |
-| 13/09/23     | 5ª Aula  | Dados matriciais do tipo raster                        | *Entrega da lista Aula_05_exercicios*; *Envio do tema do trabalho*                                             |
-| 20/09/23     | 6ª Aula  | Operações e manipulações de dados raster               | *Entrega da lista Aula_06_exercicios*                                                                          |
-| 27/09/23     | 7ª Aula  | Projeções                                              | *Entrega da lista Aula_07_exercicios*                                                                          |
-| **Outubro**  |          |                                                        |                                                                                                                |
-| 04/10/23     | 8ª Aula  | Bases de dados                                         | *Entrega da lista Aula_08_exercicios*                                                                          |
-| 11/10/23     | 9ª Aula  | Atividade prática: busca de bases de dados do trabalho | *Envio da proposta trabalho*                                                                                   |
-| 18/10/23     | 10ª Aula | Atividade prática: processamento de dados do trabalho  |                                                                                                                |
-| 25/10/23     | 11ª Aula | Atividade prática: processamento de dados do trabalho  |                                                                                                                |
-| **Novembro** |          |                                                        |                                                                                                                |
-| 01/11/23     | 12ª Aula | Interações entre dados vetoriais e raster              | *Entrega da lista Aula_12_exercicios*; *Envio da listagem das bases de dados que serão utilizadas no trabalho* |
-| 08/11/23     | 13ª Aula | Interações entre dados vetoriais e raster              | *Entrega da lista Aula_13_exercicios*                                                                          |
-| 15/11/23     | Feriado  | **NÃO HAVERÁ AULA**                                    |                                                                                                                |
-| 22/11/23     | 14ª Aula | Confecção de mapas                                     | *Entrega da lista Aula_14_exercicios*                                                                          |
-| 29/11/23     | 15ª Aula | Confecção de mapas                                     | *Entrega da lista Aula_15_exercicios*; *Envio da 1ª versão do trabalho*                                        |
-| **Dezembro** |          |                                                        |                                                                                                                |
-| 06/12/23     | 16ª Aula | Atividade prática: correções, ajustes finais           | *Entrega do trabalho*                                                                                          |
-| 13/12/23     | 17ª Aula | Atividade prática: correções, ajustes finais           | *Entrega do trabalho*                                                                                          |
-| 20/12/23     | Exame    | **PROVA EM SALA DE AULA**                              |                                                                                                                |
+| Data         | Aula     | Conteúdo                                               | Entregas e atividades                                                   |
+|--------------|----------|--------------------------------------------------------|-------------------------------------------------------------------------|
+| **Agosto**   |          |                                                        |                                                                         |
+| 16/08/23     | 1ª Aula  | Introdução e cronograma do curso                       |                                                                         |
+| 23/08/23     | 2ª Aula  | Manipulação de atributos não espaciais em tabelas      |                                                                         |
+| 30/08/23     | 3ª Aula  | Manipulação de atributos espaciais em tabelas          | *Entrega da lista Aula_02_exercicios*                                   |
+| **Setembro** |          |                                                        |                                                                         |
+| 06/09/23     | 4ª Aula  | Dados vetoriais, manipulações e transformações         | *Entrega da lista Aula_03_exercicios*                                   |
+| 13/09/23     | 5ª Aula  | Dados matriciais do tipo raster                        | *Entrega da lista Aula_04_exercicios*; *Envio do tema do trabalho*      |
+| 20/09/23     | 6ª Aula  | Operações e manipulações de dados raster               | *Entrega da lista Aula_05_exercicios*                                   |
+| 27/09/23     | 7ª Aula  | Projeções                                              | *Entrega da lista Aula_06_exercicios*                                   |
+| **Outubro**  |          |                                                        |                                                                         |
+| 04/10/23     | 8ª Aula  | Bases de dados                                         | *Entrega da lista Aula_07_exercicios*                                   |
+| 11/10/23     | 9ª Aula  | Atividade prática: busca de bases de dados do trabalho | *Entrega da lista Aula_08_exercicios*; *Envio da proposta trabalho*     |
+| 18/10/23     | 10ª Aula | Atividade prática: processamento de dados do trabalho  |                                                                         |
+| 25/10/23     | 11ª Aula | Atividade prática: processamento de dados do trabalho  |                                                                         |
+| **Novembro** |          |                                                        |                                                                         |
+| 01/11/23     | 12ª Aula | Interações entre dados vetoriais e raster              | *Envio da listagem das bases de dados que serão utilizadas no trabalho* |
+| 08/11/23     | 13ª Aula | Interações entre dados vetoriais e raster              | *Entrega da lista Aula_12_exercicios*                                   |
+| 15/11/23     | Feriado  | **NÃO HAVERÁ AULA**                                    |                                                                         |
+| 22/11/23     | 14ª Aula | Confecção de mapas                                     | *Entrega da lista Aula_13_exercicios*                                   |
+| 29/11/23     | 15ª Aula | Confecção de mapas                                     | *Entrega da lista Aula_14_exercicios*; *Envio da 1ª versão do trabalho* |
+| **Dezembro** |          |                                                        |                                                                         |
+| 06/12/23     | 16ª Aula | Atividade prática: correções, ajustes finais           | *Entrega da lista Aula_15_exercicios*; *Entrega do trabalho*            |
+| 13/12/23     | 17ª Aula | Atividade prática: correções, ajustes finais           | *Entrega do trabalho*                                                   |
+| 20/12/23     | Exame    | **PROVA EM SALA DE AULA**                              |                                                                         |
 
 ## Instruções
 
@@ -85,8 +85,10 @@ Binder](http://mybinder.org/badge_logo.svg) para rodar os arquivos `.R`,
   <a href="https://github.com/FCopf/geoprocessamentor/blob/master/Exemplo_trabalho_final.pdf" target="_blank">Exemplo_trabalho_final.pdf</a>).
 
 - **Entrega da lista Aula_XX_exercicios** (20% da nota final): As listas
-  de exercícios devem ser enviadas em formado `PDF` via **Moodle**
-  sempre *ao final de cada aula*.
+  de exercícios devem ser enviadas em formado `PDF` ou `Rmd` via
+  **Moodle**. As listas ficarão abertas por uma semana. O envio via
+  Moodle poderá ser feito da *4ª feira no dia da aula, desde o meio dia,
+  até a 4ª feira seguinte, também ao meio dia*.
 
 - **Observação**: A entrega das etapas do trabalho após as datas
   previstas contabilizará no **máximo 2/3 da nota para a etapa**. As
