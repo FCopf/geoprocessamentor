@@ -1,0 +1,37 @@
+---
+title: "GEOPROCESSAMENTO - BICT Mar - EXERCÍCIOS"
+subtitle: "Aula 3: Manipulação de atributos espaciais em tabelas"
+author: "Seu-nome-RA-Turno"
+date: "Data: `r format(Sys.Date(), '%d-%m-%Y')`"
+output: pdf_document
+---
+
+## Aula 3: Manipulação de atributos espaciais em tabelas
+
+### 1. Carrege o pacote `tidyverse`
+
+```{r, include = TRUE, message = FALSE}
+library(here)
+library(tidyverse)
+library(sf)
+library(patchwork)
+library(scales)
+```
+
+**Observações iniciais
+ - Rode o comando abaixo *antes** de iniciar o exercício clicando no triângulo verde à esquerda na célula.
+ 
+```{r setup, include = TRUE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+knitr::opts_knit$set(root.dir = here()) 
+```
+
+### 2. Repita as operações realizadas na arquivo da `Aula_3.R` e para gerar:
+
+1. Um mapa para os estados do Sul do Brasil preenchido com os municípios
+
+2. Um mapa para os estados do Sul do Brasil preenchido com os a **densidade populacional** dos municípios
+
+3. Um mapa para os estados do Sul do Brasil preenchido com os o **crescimento percentual** dos municípios entre 2012 e 2022
+
+4. Use o comando `ggsave()` para criar uma figura em .png do mapa gerado nos itens 2 e 3.

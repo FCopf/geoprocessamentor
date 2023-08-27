@@ -4,10 +4,11 @@ author: "Seu-nome-RA-Turno"
 date: "Data: `r format(Sys.Date(), '%d-%m-%Y')`"
 output: pdf_document
 ---
-# Rode esta linha ANTES de iniciar o exercício.
+# Rode esta linha ANTES de iniciar o exercício CLICANDO NO TRIANGULO VERDE À ESQUERDA NA CÉLULA.
 
 ```{r setup, include=TRUE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+knitr::opts_knit$set(root.dir = '/home/rstudio/') # se estiver rodando localmente, substitua '/home/rstudio/' pelo diretório do seu projeto.
 ```
 
 ## Aula 2: Manipulação de atributos não espaciais em tabelas
