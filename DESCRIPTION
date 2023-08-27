@@ -8,8 +8,11 @@ Description: Curso de Geoprocessamento usando o R
 License: What license it uses
 Depends: 
     geoprocessamentor,
+    here,
     holepunch,
     knitr,
+    patchwork,
+    purrr,
     rmarkdown,
     scales,
     sf,
