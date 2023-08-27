@@ -26,12 +26,12 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 knitr::opts_knit$set(root.dir = here()) 
 ```
 
-### 2. Repita as operações realizadas na arquivo da `Aula_3.R` e para gerar:
+### 2. Repita as operações realizadas na arquivo da `Aula_3.R` para os estados de Santa Catarina e Paraná.
 
-1. Um mapa para os estados do Sul do Brasil preenchido com os municípios
+1. Faça um mapa para os dois estados preenchido com seus municípios.
 
-2. Um mapa para os estados do Sul do Brasil preenchido com os a **densidade populacional** dos municípios
+2. Um mapa para os dois estadol preenchido com os a **densidade populacional** dos municípios.
 
-3. Um mapa para os estados do Sul do Brasil preenchido com os o **crescimento percentual** dos municípios entre 2012 e 2022
+3. Um mapa para os dois estado preenchido com os o **crescimento percentual** dos municípios entre 2012 e 2022.
 
 4. Use o comando `ggsave()` para criar uma figura em .png do mapa gerado nos itens 2 e 3.
