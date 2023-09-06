@@ -1,0 +1,33 @@
+---
+title: "GEOPROCESSAMENTO - BICT Mar - EXERCÍCIOS"
+subtitle: "Aula 4: Dados vetoriais, manipulações e transformações"
+author: "Seu-nome-RA-Turno"
+date: "Data: `r format(Sys.Date(), '%d-%m-%Y')`"
+output: pdf_document
+---
+
+### 1. Carrege os pacotes abaixo
+
+```{r, include = TRUE, message = FALSE}
+library(here)
+library(tidyverse)
+library(sf)
+library(geobr)
+library(patchwork)
+```
+
+**Observações iniciais
+ - Rode o comando abaixo *antes** de iniciar o exercício clicando no triângulo verde à esquerda na célula.
+ 
+```{r setup, include = TRUE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+knitr::opts_knit$set(root.dir = here()) 
+```
+
+### 2. Repita as operações realizadas na arquivo da `Aula_4.R` para:
+
+1. Plotar um mapa apresentando apenas a parcela dos estados brasileiro com intercecção com o Bioma Amazônico;
+
+2. Calcular o percentual da área de cada estado Brasileiro inserida no Bioma Amazônico e;
+
+3. Apresentar um mapa de tods os estados brasileiro preenchendo os polígonos dos estados conforme este percentual.
