@@ -7,6 +7,8 @@ Authors@R:
 Description: Curso de Geoprocessamento usando o R
 License: What license it uses
 Depends: 
+    gapminder,
+    geobr,
     geoprocessamentor,
     here,
     holepunch,
