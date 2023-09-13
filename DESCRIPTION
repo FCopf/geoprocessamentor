@@ -19,7 +19,10 @@ Depends:
     scales,
     sf,
     spData,
-    tidyverse
+    stars,
+    terra,
+    tidyverse,
+    viridis
 Remotes: 
     karthik/holepunch
 Encoding: UTF-8
