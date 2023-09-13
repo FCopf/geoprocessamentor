@@ -1,8 +1,40 @@
 Sequencia comandos git
 
-git add .   # adicionar arquivos
-git commit -m "descrição"    # commit
+# Adicionar arquivos ao índice (staging area) para prepará-los para um commit
+git add .
 
-git push -u origin master    # enviar para master
+# Commit das alterações com uma descrição
+git commit -m "descrição do commit"
 
-git push -f # forçar push
+# Enviar as alterações para o branch "master" do repositório remoto (origin)
+git push -u origin master
+
+# Nota: "-u" é usado na primeira vez para configurar o rastreamento do branch local com o remoto
+
+# Caso você precise forçar o push (use com cuidado, isso pode sobrescrever as alterações no repositório remoto)
+git push -f
+
+# Criar um novo branch a partir do branch master
+git checkout master
+git pull origin master
+git checkout -b meu-novo-branch
+
+# Fazer edições no novo branch
+# (Faça suas edições nos arquivos)
+
+# Adicionar e confirmar as mudanças
+git add .
+git commit -m "Minhas edições no novo branch"
+
+# Mesclar as alterações de "meu-novo-branch" de volta para o master
+git checkout master
+git merge meu-novo-branch
+
+# Remover arquivos adicionados com git add .
+git reset
+
+# Descartar completamente as alterações nos arquivos (se necessário)
+git checkout .
+```
+
+Este arquivo de script contém todos os comandos anteriores com explicações comentadas para cada etapa do processo Git. Certifique-se de executar esses comandos na sequência apropriada e adaptá-los conforme necessário para o seu projeto específico.

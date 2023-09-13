@@ -26,8 +26,8 @@ knitr::opts_knit$set(root.dir = here())
 
 ### 2. Repita as operações realizadas na arquivo da `Aula_4.R` para:
 
-1. Plotar um mapa apresentando apenas a parcela dos estados brasileiro com intercecção com o Bioma Amazônico;
+1. Plotar um mapa apresentando apenas a parcela dos estados brasileiro com intercecção com o Bioma Cerrado;
 
-2. Calcular o percentual da área de cada estado Brasileiro inserida no Bioma Amazônico e;
+2. Calcular o percentual da área de cada estado Brasileiro inserida no Bioma Cerrado e;
 
 3. Apresentar um mapa de tods os estados brasileiro preenchendo os polígonos dos estados conforme este percentual.
